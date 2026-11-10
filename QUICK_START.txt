@@ -1,0 +1,36 @@
+IRISPD v14 QUICK START  |  WINDOWS 10/11, 64-BIT
+
+1. Extract the whole ZIP into a permanent directory. Install 64-bit Python 3.11.
+2. Launch Run_IrisPD_Windows.bat. It creates/uses its local Python environment.
+3. Press Start webcam for a one-time PD estimate, or Start monitoring for
+   scheduled PD checks. Start alignment independently to observe eye movement.
+4. In Eye alignment > Settings: auto-recalibration for stable head movement is
+   OPTIONAL and OFF by default. When enabled, it waits 2.5 seconds (editable)
+   in a stable new head pose, with a 12-second cooldown, before reorienting.
+   A normal head motion alone only pauses tracking and retains the reference.
+5. Click Reorient. The second preset (monitors top, camera left, PD
+   monitor left) is the default; choose any of eight presets. F11
+   toggles full display; Esc restores the window.
+6. The Method label is no longer on the compact PD panel. The Help PDF explains
+   the iris-based method and 85.60-mm plastic-card still-image calibration.
+7. In the MIDDLE of EITHER monitor settings pane, show or hide the Buy
+   Me a Coffee banner. The button opens https://buymeacoffee.com/nipu011.
+   The banner sits between the top-left IrisPD logo and top-right menu,
+   disappearing after 60 seconds without shifting surrounding controls.
+   Clicking opens your external browser; no payment SDK is installed.
+8. Pause camera (upper right) stops monitoring and releases the webcam so
+   another application can use it. Resume camera restores the previously active
+   monitors. Hide preview does NOT release the hardware.
+9. Camera power configures 30-second ON and 15-second OFF cooling by default.
+   Turn this cycle OFF if uninterrupted detection of brief eye events matters.
+10. Open Help PDF for full explanations and card calibration instructions.
+
+All camera inference stays local. Camera images are not uploaded or recorded.
+CSV measurements are saved only when chosen. This is an experimental tracking
+application, not a validated medical device or a clinical strabismus test.
+
+Standalone EXE: Build_Windows_Standalone_EXE.bat builds a single
+dist\IrisPD.exe on Windows; Python is not needed on the target PC.
+Build_Windows_EXE.bat builds the folder-based version. See
+STANDALONE_WINDOWS_EXE.md for Windows and GitHub Actions instructions.
+This ZIP contains build tools and source, not a precompiled Windows EXE.

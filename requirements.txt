@@ -1,0 +1,6 @@
+# Python 3.11, 64-bit Windows. Pin legacy FaceMesh with refined 478 landmarks.
+mediapipe==0.10.21
+numpy>=1.26,<2.0
+Pillow>=10.4,<12
+# Avoid the NumPy 2+ requirement added to newer OpenCV wheels.
+opencv-contrib-python==4.11.0.86
