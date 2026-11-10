@@ -1,6 +1,6 @@
 # IrisPD v14 - Windows EXE build and support information
 
-**Download contents:** Updated source, Windows launcher, PDF Help, tests, a new `Build_Windows_Standalone_EXE.bat` builder for a **single-file `dist\IrisPD.exe`**, the existing folder-based EXE builder, and a GitHub Actions workflow to build on Windows. This ZIP does not contain a precompiled Windows executable; see [`STANDALONE_WINDOWS_EXE.md`](STANDALONE_WINDOWS_EXE.md).
+**Download contents:** Updated source, Windows launcher, PDF Help
 
 **Buy Me a Coffee:** The header's support button opens [https://buymeacoffee.com/nipu011](https://buymeacoffee.com/nipu011) in your browser. The banner can be shown or hidden from either monitoring settings window and disappears after 60 seconds.
 
